@@ -1,0 +1,87 @@
+#containor{
+    width: 350px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 gray;
+    background-color: white;
+}
+#result{
+    height: 120px;
+}
+#keyboard{
+    height: 400px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 15px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 0 15px;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin:  12px;
+    margin-left: 22px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number, .empty{
+    background-color: white;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color:cadetblue;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: coral;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: darkgoldenrod;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: darkorange;
+}
+#clear{
+    font-size: 20px;
+    background-color: darkslateblue;
+}
+#backspace{
+    font-size: 20px;
+    background-color: hotpink;
+}
+#percentage{
+    font-size: 20px;
+    background-color: indianred;
+}
+#clear:active, #backspace:active, #color:active{
+    font-size: 13px;
+}
