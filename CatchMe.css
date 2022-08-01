@@ -1,0 +1,27 @@
+body{
+     background-color: aquamarine;
+
+}
+.catch-me{
+    background: rgb(63,94,251);
+    border: 2px black solid;
+    border-radius: 8px;
+    max-width: max-content;
+    font-weight: 200;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: 250ms ease;
+}
+.catch-me:hover{
+    transform: scale(1.1);
+}
+.catch-me p{
+    color: white;
+    font-family: poppins;
+    font-weight: bold;
+    padding: 0px 20px;
+
+}
+
